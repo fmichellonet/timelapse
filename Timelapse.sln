@@ -15,10 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.Projections", "Timelapse.Projections\Timelapse.Projections.csproj", "{D42EF485-96FF-4DA3-BFA3-0D9EA4E4F839}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.Replay", "Timelapse.Replay\Timelapse.Replay.csproj", "{A79BBBD7-1999-482E-8FFB-C657D8688E36}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timelapse.EventPublisher.MediatR", "Timelapse.EventPublisher.MediatR\Timelapse.EventPublisher.MediatR.csproj", "{58460832-4D28-4AFC-97C1-9D919F621BBA}"
 EndProject
 Global
@@ -39,14 +35,6 @@ Global
 		{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D42EF485-96FF-4DA3-BFA3-0D9EA4E4F839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D42EF485-96FF-4DA3-BFA3-0D9EA4E4F839}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D42EF485-96FF-4DA3-BFA3-0D9EA4E4F839}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D42EF485-96FF-4DA3-BFA3-0D9EA4E4F839}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A79BBBD7-1999-482E-8FFB-C657D8688E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A79BBBD7-1999-482E-8FFB-C657D8688E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A79BBBD7-1999-482E-8FFB-C657D8688E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A79BBBD7-1999-482E-8FFB-C657D8688E36}.Release|Any CPU.Build.0 = Release|Any CPU
 		{58460832-4D28-4AFC-97C1-9D919F621BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{58460832-4D28-4AFC-97C1-9D919F621BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58460832-4D28-4AFC-97C1-9D919F621BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse", "Timelapse\Timelapse.csproj", "{3455C187-24BE-4B62-9E5B-F8D7021CC410}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.Domain", "Timelapse.Domain\Timelapse.Domain.csproj", "{3F2A801B-CFEA-4502-8490-802479E62F65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.Persistence", "Timelapse.Persistence\Timelapse.Persistence.csproj", "{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EE71109-026F-4CB6-BF04-63FC69DDD28B}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.Projections", "Timelapse.Projections\Timelapse.Projections.csproj", "{D42EF485-96FF-4DA3-BFA3-0D9EA4E4F839}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.Replay", "Timelapse.Replay\Timelapse.Replay.csproj", "{A79BBBD7-1999-482E-8FFB-C657D8688E36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timelapse.EventPublisher.MediatR", "Timelapse.EventPublisher.MediatR\Timelapse.EventPublisher.MediatR.csproj", "{58460832-4D28-4AFC-97C1-9D919F621BBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3455C187-24BE-4B62-9E5B-F8D7021CC410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3455C187-24BE-4B62-9E5B-F8D7021CC410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3455C187-24BE-4B62-9E5B-F8D7021CC410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3455C187-24BE-4B62-9E5B-F8D7021CC410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F2A801B-CFEA-4502-8490-802479E62F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F2A801B-CFEA-4502-8490-802479E62F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F2A801B-CFEA-4502-8490-802479E62F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F2A801B-CFEA-4502-8490-802479E62F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42EF485-96FF-4DA3-BFA3-0D9EA4E4F839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42EF485-96FF-4DA3-BFA3-0D9EA4E4F839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42EF485-96FF-4DA3-BFA3-0D9EA4E4F839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42EF485-96FF-4DA3-BFA3-0D9EA4E4F839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A79BBBD7-1999-482E-8FFB-C657D8688E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A79BBBD7-1999-482E-8FFB-C657D8688E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A79BBBD7-1999-482E-8FFB-C657D8688E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A79BBBD7-1999-482E-8FFB-C657D8688E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58460832-4D28-4AFC-97C1-9D919F621BBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58460832-4D28-4AFC-97C1-9D919F621BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58460832-4D28-4AFC-97C1-9D919F621BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58460832-4D28-4AFC-97C1-9D919F621BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B329457-90CE-41FC-A8DE-F834047F5F99}
+	EndGlobalSection
+EndGlobal

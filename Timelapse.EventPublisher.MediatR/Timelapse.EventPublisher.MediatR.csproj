@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>Events publishing layer using MediatR.</Description>
   </PropertyGroup>
 
   <ItemGroup>

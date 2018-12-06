@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>fabrice.michellonet@gmail.com</Authors>
+    <Company />
+    <PackageId>Timelapse-core</PackageId>
+    <Description>Main timelapse package</Description>
+    <PackageProjectUrl>https://github.com/fmichellonet/timelapse</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>

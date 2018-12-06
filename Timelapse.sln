@@ -5,17 +5,16 @@ VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse", "Timelapse\Timelapse.csproj", "{3455C187-24BE-4B62-9E5B-F8D7021CC410}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.Domain", "Timelapse.Domain\Timelapse.Domain.csproj", "{3F2A801B-CFEA-4502-8490-802479E62F65}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.Persistence", "Timelapse.Persistence\Timelapse.Persistence.csproj", "{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.Persistence.Streamstone", "Timelapse.Persistence.Streamstone\Timelapse.Persistence.Streamstone.csproj", "{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1EE71109-026F-4CB6-BF04-63FC69DDD28B}"
 	ProjectSection(SolutionItems) = preProject
 		LICENSE = LICENSE
 		README.md = README.md
+		Timelapse.nuspec = Timelapse.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timelapse.EventPublisher.MediatR", "Timelapse.EventPublisher.MediatR\Timelapse.EventPublisher.MediatR.csproj", "{58460832-4D28-4AFC-97C1-9D919F621BBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.EventPublisher.MediatR", "Timelapse.EventPublisher.MediatR\Timelapse.EventPublisher.MediatR.csproj", "{58460832-4D28-4AFC-97C1-9D919F621BBA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,10 +26,6 @@ Global
 		{3455C187-24BE-4B62-9E5B-F8D7021CC410}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3455C187-24BE-4B62-9E5B-F8D7021CC410}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3455C187-24BE-4B62-9E5B-F8D7021CC410}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F2A801B-CFEA-4502-8490-802479E62F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F2A801B-CFEA-4502-8490-802479E62F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F2A801B-CFEA-4502-8490-802479E62F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F2A801B-CFEA-4502-8490-802479E62F65}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EAEDB04-475A-41AA-AA7E-52562E02FAD7}.Release|Any CPU.ActiveCfg = Release|Any CPU

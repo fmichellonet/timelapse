@@ -1,4 +1,4 @@
-﻿namespace Timelapse.Persistence
+﻿namespace Timelapse.Persistence.Streamstone
 {
 	using Microsoft.WindowsAzure.Storage.Table;
 

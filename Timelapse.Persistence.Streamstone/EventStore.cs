@@ -1,13 +1,13 @@
-﻿namespace Timelapse.Persistence
+﻿namespace Timelapse.Persistence.Streamstone
 {
 	using System;
 	using System.Collections.Generic;
 	using System.Linq;
 	using System.Threading.Tasks;
 	using Exceptions;
+	using global::Streamstone;
 	using Microsoft.WindowsAzure.Storage.Table;
 	using Newtonsoft.Json;
-	using Streamstone;
 
 	public class EventStore : IEventStore
     {

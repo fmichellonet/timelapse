@@ -11,5 +11,8 @@
     <description>$description$</description>
     <copyright>Copyright 2018</copyright>
     <tags>event-sourcing MediatR</tags>
+    <dependencies>
+      <dependency id="MediatR" version="5.1.0" />
+    </dependencies>
   </metadata>
 </package>

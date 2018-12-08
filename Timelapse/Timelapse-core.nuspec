@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package>
   <metadata>
-    <id>$id$</id>
+    <id>Timelapse-core</id>
     <version>$version$</version>
-    <title>$title$</title>
+    <title>Timelapse-core</title>
     <authors>fabrice.michellonet@gmail.com</authors>
     <owners>fabrice.michellonet@gmail.com</owners>
     <projectUrl>https://github.com/fmichellonet/timelapse</projectUrl>

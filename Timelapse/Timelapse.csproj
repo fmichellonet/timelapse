@@ -5,8 +5,9 @@
     <Authors>fabrice.michellonet@gmail.com</Authors>
     <Company />
     <PackageId>Timelapse-core</PackageId>
-    <Description>Main timelapse package</Description>
+    <Description>Tiimelapse is an opinionated event-sourcing library.</Description>
     <PackageProjectUrl>https://github.com/fmichellonet/timelapse</PackageProjectUrl>
+    <Product>Timelapse-core</Product>
   </PropertyGroup>
 
   <ItemGroup>

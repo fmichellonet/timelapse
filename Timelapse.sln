@@ -16,6 +16,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Timelapse.EventPublisher.MediatR", "Timelapse.EventPublisher.MediatR\Timelapse.EventPublisher.MediatR.csproj", "{58460832-4D28-4AFC-97C1-9D919F621BBA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{76374FC0-1D65-462C-ADDB-A6E34E948945}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cart", "Cart", "{2891C202-1AEE-4BB6-B85A-AB2D4396A69C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Samples.Cart.Api", "Samples.Cart.Api\Samples.Cart.Api.csproj", "{B2DAC2BC-D44C-4454-AE00-18AE8EA3506B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,9 +40,17 @@ Global
 		{58460832-4D28-4AFC-97C1-9D919F621BBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58460832-4D28-4AFC-97C1-9D919F621BBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58460832-4D28-4AFC-97C1-9D919F621BBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2DAC2BC-D44C-4454-AE00-18AE8EA3506B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DAC2BC-D44C-4454-AE00-18AE8EA3506B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2DAC2BC-D44C-4454-AE00-18AE8EA3506B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DAC2BC-D44C-4454-AE00-18AE8EA3506B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2891C202-1AEE-4BB6-B85A-AB2D4396A69C} = {76374FC0-1D65-462C-ADDB-A6E34E948945}
+		{B2DAC2BC-D44C-4454-AE00-18AE8EA3506B} = {2891C202-1AEE-4BB6-B85A-AB2D4396A69C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3B329457-90CE-41FC-A8DE-F834047F5F99}

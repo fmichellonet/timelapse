@@ -5,8 +5,9 @@
 	using System.Threading.Tasks;
 	using Persistence;
 	using Persistence.Exceptions;
+    using Exceptions;
 
-	public class EventSourcingRepository<TAggregate, TAggregateId> :
+    public class EventSourcingRepository<TAggregate, TAggregateId> :
         IRepository<TAggregate, TAggregateId>
         where TAggregate : AggregateBase<TAggregateId>, IAggregate<TAggregateId>
         where TAggregateId : IAggregateId
@@ -64,11 +65,17 @@
 
         private TAggregate CreateEmptyAggregate()
         {
-            return (TAggregate)typeof(TAggregate)
+            var constructor = typeof(TAggregate)
                 .GetConstructor(
                     BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public,
-                    null, new Type[0], new ParameterModifier[0])
-                .Invoke(new object[0]);
+                    null, new Type[0], new ParameterModifier[0]);
+
+            if (constructor == null)
+            {
+                throw new PrivateEmptyConstructorNotFoundException<TAggregate>();
+            }
+
+            return (TAggregate)constructor.Invoke(new object[0]);
         }
     }
 }

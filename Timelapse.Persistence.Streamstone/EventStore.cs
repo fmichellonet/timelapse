@@ -11,6 +11,8 @@
 
 	public class EventStore : IEventStore
     {
+        private static readonly JsonSerializerSettings SerializerSettings = new JsonSerializerSettings { ContractResolver = new PrivateSetterContractResolver() };
+
         private readonly CloudTable _table;
 
         public EventStore(CloudTable table)
@@ -70,12 +72,10 @@
 				throw new EventStoreConcurrencyException();
 			}
 		}
-
+        
         private IDomainEvent<TAggregateId> Deserialize<TAggregateId>(string eventType, string data)
         {
-            JsonSerializerSettings settings = new JsonSerializerSettings { ContractResolver = new PrivateSetterContractResolver() };
-
-			return JsonConvert.DeserializeObject(data, Type.GetType(eventType), settings) as IDomainEvent<TAggregateId>;
+			return JsonConvert.DeserializeObject(data, Type.GetType(eventType), SerializerSettings) as IDomainEvent<TAggregateId>;
         }   
     }
 }
